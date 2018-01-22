@@ -7,7 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'meteo') {
-    	message.channel.send('```Météo actuelle de DennlysParc : 8°C / Couvert http://www.icone-png.com/png/11/10850.png```');
+    	message.channel.send('```Météo actuelle de DennlysParc : 8°C / Couvert```');
+    	message.channel.send('http://www.icone-png.com/png/11/10850.png');
   	}
 });
 
