@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 're') {
-    	message.reply('ReCoucou ! J'espere que tu vas bien ;D');
+    	message.reply('ReCoucou ! J espere que tu vas bien');
   	}
 });
 
