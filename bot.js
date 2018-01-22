@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'meteo') {
+    	message.channel.send('Météo actuelle de DennlysParc : 8°C / Couvert');
   	}
 });
 
